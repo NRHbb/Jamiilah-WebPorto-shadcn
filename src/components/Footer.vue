@@ -20,8 +20,9 @@
         </div>
     </div>
     <div id="FooterSub" class="w-full bg-black text-sm text-gray-400">
-        <div class="max-w-[1200px] mx-auto p-4 text-center text-white font-semibold">
-            Copyright&#169;2024 Hbb, vue-shadcn-typescript | All Right Reserved
+        <div class="max-w-[1200px] mx-auto p-4 ">
+            <h1 class="text-center text-white font-semibold">&#169;2024 Hbb. All Right Reserved. Privacy Policy | Terms of Service</h1>
+            <p class="py-2 text-center">Powered by : Vue3 - Shadcn UI - TypeScript</p>
         </div>
     </div>
 </template>

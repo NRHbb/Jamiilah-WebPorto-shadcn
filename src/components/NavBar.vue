@@ -50,13 +50,13 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 // responsive
-const showMenu = ref(false);
-const isScrolled = ref(false);
+const showMenu = ref<boolean>(false);
+const isScrolled = ref<boolean>(false);
 
 const toggleNav = () => (showMenu.value = !showMenu.value);
 
 // router
-const menuNav = ref(['Home', 'About', 'Service', 'Project', 'Contact']);
+const menuNav = ref<string[]>(['Home', 'Service', 'Project', 'Contact']);
 
 // transition bg navbar
 const handleScroll = () => {
