@@ -2,7 +2,7 @@
     <header>
         <NavBar />
     </header>
-    <main class="min-h-screen">
+    <main class="min-h-screen overflow-x-hidden">
         <RouterView />
     </main>
     <footer>
