@@ -1,4 +1,5 @@
 <template>
+  
   <div id="home">
     <Hero />
   </div>
@@ -12,7 +13,7 @@
     <ProjectView />
   </div>
   <div id="contact">
-
+    <Connect />
   </div>
 
 </template>
@@ -22,6 +23,7 @@ import Hero from "./porto/HeroView.vue"
 import About from "./porto/AboutView.vue";
 import Skill from "./porto/SkillView.vue";
 import ProjectView from "./porto/ProjectView.vue";
+import Connect from "./porto/ConnectView.vue";
 </script>
 
 <style scoped>

@@ -17,20 +17,20 @@
                     </p>
                 </div>
                 <div class="flex gap-5 pt-10 flex-wrap text-black font-semibold drop-shadow-lg">
-                    <Button variant="outline" @click="openLink">
+                    <Button @click="openLink">
 
                         Resume
 
                     </Button>
                     
-                    <Button variant="outline" @click="openLink2">  LinkedIn </Button>
+                    <Button @click="openLink2">  LinkedIn </Button>
                 </div>
             </div>
             <div class="w-full md:w-1/2 flex justify-center md:justify-end items-center md:h-screen p-8">
                 <div class="md:w-96 md:h-96 md:border-8 md:relative md:border-white">
                 </div>
                 <img src="/photo.webp" alt="Photo"
-                    class="w-72 md:w-96 md:absolute md:-mr-8 md:-mt-16 border-8 border-black">
+                    class="w-72 md:w-96 md:absolute md:-mr-8 md:-mt-16 border-4 border-black">
             </div>
         </div>
     </div>
@@ -40,11 +40,11 @@
 import { Button } from '@/components/ui/button'
 
 const openLink = () => {
-    window.open('https://www.googledrive.com', '_blank');
+    window.open('https://drive.google.com/file/d/15OvCoqEmD9MjcQKDmSLkkZAi80XduNTh/view', '_blank');
 }
 
 const openLink2 = () => {
-    window.open('https://www.linkedin.com', '_blank');
+    window.open('https://www.linkedin.com/in/jamiilahzahrotuljannah', '_blank');
 }
 </script>
   
