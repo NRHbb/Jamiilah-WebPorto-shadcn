@@ -12,7 +12,7 @@ const moreProject = () => {
 </script>
 
 <template>
-  <div class="flex justify-center items-center h-screen w-full px-4">
+  <div class="flex justify-center items-center w-full px-4 ">
     <div class="flex flex-col md:flex-row  justify-center items-center w-full md:w-[1128px]">
       <div class="md:w-1/2">
         <h1 class="text-3xl md:text-6xl font-extrabold mb-8 md:mr-24 text-center md:text-left drop-shadow-md">
